@@ -1,0 +1,219 @@
+/* about styles */
+:root {
+    --warm-grey: #807E75;
+    --warm-grey-lt: #BFBDB0;
+    --medium-blue: #3293d8;
+    --golden-touch: #e1cf39;
+    --creamy: #FFE6AB;
+    --creamy-lt: #fcf2cc;
+    --blue-grey: #223f48;
+    --grey-green: #2d624a;
+    --dark-blue-grey: #142733;
+    --violet-grey: #A67690;
+    --pink: #B8390E;
+    --dark: #292C33;
+    --orange: #e25511;
+
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: 'neue helvetica', Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+
+  header {
+    color: var(--medium-blue);
+    font-size: 2em;
+    position: fixed;
+    top: 0vh;
+    left: 0vh;
+    padding: 2vh;
+    background: rgba( 250, 250, 250, 0.75 );
+    min-width: 60vh;
+
+  }
+  
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-self: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 55vh;
+    padding: 5vh 0 0 0;
+    max-width: 100vh;
+    overflow: auto;
+  }
+  
+  .about h3 {
+    align-self: center;
+    text-align: center;
+    justify-self: center;
+    color: var(--dark);
+    font-size: 2vh;
+    font-style: italic;
+    max-width: 24vh;
+  }
+  
+  .intro-menu {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+    max-height: 8vh;   
+  }
+  
+  .intro-menu button {
+    position: fixed;
+    top: 2vh;
+    right: 0.5vh;
+    background-color: rgba(255, 255, 255, .85);
+    height: 5vh;
+    width: 20vh;
+    padding: 1vh 0 0 4vh;
+    justify-content: center;
+    border: 1px solid var(--golden-touch);
+    text-decoration: none;
+    font-size: 2vh;
+    color: var(--grey-green);
+    border-radius: 2vh;
+    box-shadow:
+    -5px 10px 20px -8px var(--blue-grey-2);
+    display: flex;
+  }
+  
+  .intro-menu button:hover {
+    font-style: italic;
+  }
+  
+  .intro-menu-arrow {
+    padding: 0 2vh 0 2vh;
+  }
+  
+  .intro-menu a {
+    text-decoration: none;
+  }
+  
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    font-size: 2vh;
+    padding: 1vh 2vh 0 2vh;
+    min-height: 80vh;
+    text-align: left;
+    max-width: fit-content;
+  }
+  
+  .hero {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .silhouette {
+    width: 40vh;
+    align-self: center;
+    padding-bottom: 2vh;
+  }
+  
+  .hero h2 {
+    font-weight: lighter;
+    text-align: justify;
+    align-self: center;
+    max-width: 43vh;
+    z-index: 7777;
+    padding: 0 2vh 0 0;
+    font-size: 1.5em;
+    background: rgba( 250, 250, 250, 0.5 );
+  }
+  
+  .highlight {
+    font-family: 'Poly sans neutral';
+    color: var(--orange);
+  }
+  
+  #about-text {
+    font-size: 2vh;
+    padding: 5vh;
+  }
+  
+  #about-text p {
+    padding: 2vh; 
+    max-width: 90vh;
+    font-size: medium;
+  }
+  
+  .bio-btn{
+    display: flex;
+    padding: 2vh 7vh 1.5vh 7vh;
+    background: #fff;
+      
+      --blue-grey: #ced2f0;
+      --blue-grey-2: #B0BFD9;
+      
+      transition: 
+        box-shadow 0.2s,
+        transform 0.15s;
+      
+      box-shadow:
+          -5px 10px 20px -8px var(--blue-grey-2);
+      /* border: 3px solid var(--medium-blue); */
+      border-radius: .5vh;
+  }
+  
+  .bio-btn:hover, .bio-btn:focus {
+    outline: 0;
+    box-shadow:
+      -5px 5px 12px -8px var(--blue-grey-2);
+    
+    transform: translate(1px, 1px);
+  }
+  
+  .bio-btn:active {
+    outline: 0;
+    box-shadow:
+      -5px -2px 20px -8px var(--blue-grey-2);
+  
+    transform: translate(1px, 1px);
+  }
+  
+  .clickem {
+    max-width: 6vh;
+  }
+  
+  .arrow-btn {
+    background-color: #fff;
+    margin-top: 0;
+    padding: 0;
+    transform: translateY(0vh);
+    align-self: baseline;
+    border: none;
+  }
+  
+  .x-icon {
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 3.5vh;
+    color: var(--grey-green);
+    padding: 1vh 0 0 4vh;
+  }
+  
+  #right {
+    display: none;
+  }
+
+  .rez-title {
+    color: #eda800;
+  }
+
+  .rez-date {
+    color: blueviolet;
+  }
