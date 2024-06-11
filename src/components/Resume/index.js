@@ -3,7 +3,6 @@ import clickem from '../../assets/click-icon.webp';
 import mercerprince from '../../assets/mixing.PNG';
 import paisleyshow from '../../assets/paisleyshow.PNG';
 import redbou from '../../assets/redbull_bou.JPEG';
-import fishbowl from '../../assets/fishbowl.JPEG';
 import canvasproj from '../../assets/canvas_proj.JPEG';
 import './style.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
