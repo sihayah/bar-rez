@@ -1,11 +1,17 @@
 import React, { useState } from 'react';
 import clickem from '../../assets/click-icon.webp';
-import silhouette from '../../assets/mixing.jpg';
+import mercerprince from '../../assets/mixing.PNG';
+import paisleyshow from '../../assets/paisleyshow.PNG';
+import redbou from '../../assets/redbull_bou.JPEG';
+import fishbowl from '../../assets/fishbowl.JPEG';
+import canvasproj from '../../assets/canvas_proj.JPEG';
 import './style.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight, faArrowDown, faX, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { Element, animateScroll as scroll, scroller } from 'react-scroll';
 import { Link, useLocation } from 'react-router-dom';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 
 const Resume = () => {
@@ -65,7 +71,25 @@ const Resume = () => {
         
             </div> 
             <div className='hero'>
-                <img alt="silhouette" className="silhouette" src={silhouette}/>
+                {/* <img alt="silhouette" className="silhouette" src={silhouette}/> */}
+                <Carousel className="carousel" width="40vh" showThumbs={false} thumbWidth="7vh" autoPlay={true} infiniteLoop="true" interval={5000} transitionTime={1000}>
+                    <div className='slide'>
+                        <img className="silhouette" src={mercerprince}/>
+                        <p className='legend legend-text'>Mercer + Prince launch party </p>
+                    </div>
+                    <div>
+                        <img className="silhouette" src={redbou}/>
+                        <p className='legend'>Redbull & Sushi by Bou collab</p>
+                    </div>
+                    <div>
+                        <img className="silhouette" src={paisleyshow}/>
+                        <p className='legend'>demoing drinks on the Paisley Show</p>
+                    </div>
+                    <div>
+                        <img className="silhouette" src={canvasproj}/>
+                        <p className='legend'>my work at Bombay Sapphire Canvas Project Showcase</p>
+                    </div>
+                </Carousel>
                 <h2>
                     Hello, there! I am Sihaya Harris, a dynamic<span className='highlight'> bartender </span> who's been shaking things up in the food and beverage industry for years. I am known for innovation, adaptive collaboration, and expertise in crafting drinks inspired by sense memory and novel ingredients.
                 </h2>

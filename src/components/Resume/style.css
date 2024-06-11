@@ -117,12 +117,20 @@
     display: flex;
     flex-direction: column;
   }
-  
-  .silhouette {
-    width: 40vh;
-    align-self: center;
-    padding-bottom: 2vh;
+
+  .carousel {
+    padding-left: 1vh;
   }
+
+  .legend {
+    border: 1px solid #fff;
+    color: var(--grey-green) !important;
+    background: rgba( 250, 250, 250, 0.85 ) !important;
+    opacity: 0 !important;
+  }
+
+  .carousel:hover .slide .legend {
+    opacity: 1 !important; }
   
   .hero h2 {
     font-weight: lighter;
