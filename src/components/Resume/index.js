@@ -67,7 +67,7 @@ const Resume = () => {
             <div className='hero'>
                 <img alt="silhouette" className="silhouette" src={silhouette}/>
                 <h2>
-                    Hello, there! I am Sihaya Harris, a <span className='highlight'> bartender </span> ...
+                    Hello, there! I am Sihaya Harris, a dynamic and seasoned<span className='highlight'> bartender </span> who's been shaking things up in the food and beverage industry for years. Renowned for innovation, adaptive collaboration, and expertise in crafting drinks inspired by sense memory and novel ingredients.
                 </h2>
             </div>
 
